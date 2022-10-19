@@ -40,8 +40,10 @@ public class RockPaperScissorsGame {
                 System.out.println("You lose!");
             } else if (robotPlay.equalsIgnoreCase("Scissor")) {
                 System.out.println("You win!");
+            }
 
-            } else if (userPlay.equalsIgnoreCase("Paper")) {
+            //@FIXME: check IntelliJ's suggestion for the else condition and make adjustments
+            else if (userPlay.equalsIgnoreCase("Paper")) {
                 if (robotPlay.equalsIgnoreCase("Rock")) {
                     System.out.println("You win!");
                 } else if (robotPlay.equalsIgnoreCase("Scissor")) {
